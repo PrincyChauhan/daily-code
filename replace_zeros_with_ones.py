@@ -3,6 +3,7 @@ def replace_zeros_with_ones(n):
     for char in str_n:
         if char=="0":
             str_n=str_n.replace(char,"1")
+            print90(str_n)
         else:
             continue 
     return int(str_n)        
