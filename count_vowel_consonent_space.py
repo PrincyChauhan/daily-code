@@ -4,7 +4,7 @@ def count_charater(s):
     consonants=0
     for char in s:
         if char.lower() in "aeiou":
-            vowel+=1
+            vowels+=1
         elif char.isalpha():
             consonants+=1
         elif char.isspace():
@@ -16,4 +16,3 @@ space,vowels,consonants=count_charater(input_string)
 print("Space: ",space)
 print("Vowels: ",vowels)
 print("Consonants: ",consonants)            
-            
